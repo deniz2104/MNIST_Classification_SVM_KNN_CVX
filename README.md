@@ -33,13 +33,14 @@
   - SVM cu functii predefinite: 94.57%
   - CVX: 83.84%
   - KNN: 95.46%
-  Motivul acuratetei mai scazute pentru CVX: 
-    - CVX e folosit pentru optimizare convexa si nu este specializat pentru SVM,ceea ce poatea afecta performanta
+    
+  ## Motivul acuratetei mai scazute pentru CVX: 
+  - CVX e folosit pentru optimizare convexa si nu este specializat pentru SVM,ceea ce poatea afecta performanta
 
-  Motivul pentru acuratetile marite:
-    -SVM predefinit:
+  ## Motivul pentru acuratetile marite:
+  -SVM predefinit:
       - utilizarea `fitcsvm(---)` si `fitcecoc(...) ` ofera acuratate ridicata datorita optimizarii performantei
       - functiile predefinite sunt optimizate pentru stabilitate numerica si eficienta,riscul de overfitting fiind mic si obtinand o margine optima intre clase.
-    -KNN:
+  -KNN:
       - acuratatea mare sugereaza ca datele sunt bine separate in spatiul caracteristicilor, un avantaj pentru metoda KNN.
       - putin predispus la greseli de clasificare daca nu exista zgomot asupra datelor
