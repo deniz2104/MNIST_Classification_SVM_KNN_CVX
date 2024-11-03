@@ -29,10 +29,10 @@
   - In urma calcularii si sortarii lor, algoritmul selecteaza cei mai apropiati 'k' vecini.
   - Se vor folosi etichetele pentru punctul de testare prin votare majoritara
 # Performante:
-  Acuratetea:
-    - SVM cu functii predefinite: 94.57%
-    - CVX: 83.84%
-    - KNN: 95.46%
+  ## Acuratetea :
+  - SVM cu functii predefinite: 94.57%
+  - CVX: 83.84%
+  - KNN: 95.46%
   Motivul acuratetei mai scazute pentru CVX: 
     - CVX e folosit pentru optimizare convexa si nu este specializat pentru SVM,ceea ce poatea afecta performanta
 
