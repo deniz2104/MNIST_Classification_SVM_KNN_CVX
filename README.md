@@ -9,9 +9,9 @@
   ## Preprocesarea datelor:
   - Citirea matricilor de testare si de antrenare.
   - Combinarea acestora intr-o singra matrice salvata si folosita pentru implementare.
-  ## Atrenarea SVM-ului cu kernel liniar:
-  - Functia `templeteSVM(...)` formeaza un sablon care specifica modul in care se va configura clasificatorul folosit ca functie de baza in `fitcecoc(...)`.
-  - Kernelul liniar folosit pentru ca lucram cu date separabile liniar.
+  ## Antrenarea SVM-ului cu kernel liniar:
+  - Functia `templateSVM(...)` formeaza un sablon care specifica modul in care se va configura clasificatorul folosit ca functie de baza in `fitcecoc(...)`.
+  - Kernelul liniar folosit pentru ca vom lucra cu date separabile liniar.
   - Setam parametrul de regularizare la 1.
   - `fitcecoc(...)` care are parametrii:
     - X_train reprezinta datele de antrenare  
